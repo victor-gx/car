@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+MFCApplication3.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+MFCApplication3.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+MFCApplication3.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+MFCApplication3.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CMFCApplication3Dlg::CMFCApplication3Dlg(class CWnd *)" (??0CMFCApplication3Dlg@@QAE@PAVCWnd@@@Z)，该符号在函数 "public: virtual int __thiscall CMFCApplication3App::InitInstance(void)" (?InitInstance@CMFCApplication3App@@UAEHXZ) 中被引用
+MFCApplication3.obj : error LNK2011: 未链接预编译对象；映像可能不能运行
+mfcs140ud.lib(nolib.obj) : error LNK2001: 无法解析的外部符号 "int __cdecl _AfxInitManaged(void)" (?_AfxInitManaged@@YAHXZ)
+mfcs140ud.lib(stdafx.obj) : error LNK2001: 无法解析的外部符号 "int __cdecl _AfxInitManaged(void)" (?_AfxInitManaged@@YAHXZ)
+mfcs140ud.lib(appmodul.obj) : error LNK2001: 无法解析的外部符号 "int __cdecl _AfxInitManaged(void)" (?_AfxInitManaged@@YAHXZ)
+D:\opencv\build\x64\vc15\lib\opencv_world341.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\opencv\build\x64\vc15\lib\opencv_world341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\c++\MFCApplication3\Debug\MFCApplication3.exe : fatal error LNK1120: 6 个无法解析的外部命令
